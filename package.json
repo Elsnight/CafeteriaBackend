@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon ./src/index.ts",
-    "dev": "nodemon ./src/index.ts",
+    "start": "node src/index.ts",
+    "dev": "nodemon src/index.ts",
     "dev2": "tsc-watch --onSuccess \"node dist/index.js\"",
     "test": "ts-mocha --timeout 120000 --exit ./tests/**/**/*.test.ts"
   },
