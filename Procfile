@@ -1,1 +1,1 @@
-web: nodo src/index.ts
+web: node dist/index.js
