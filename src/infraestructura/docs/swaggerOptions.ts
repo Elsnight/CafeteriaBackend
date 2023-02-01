@@ -1,3 +1,4 @@
+import { PORT } from '../config'
 
 export const swaggerOptions = {
   definition: {
@@ -9,7 +10,9 @@ export const swaggerOptions = {
     },
     servers: [
       {
-        url: `https://app-cafeteriacackend.herokuapp.com/`
+        // url: `https://app-cafeteriacackend.herokuapp.com/`
+        url: `http://localhost:${PORT}`
+
       }
     ]
   },
