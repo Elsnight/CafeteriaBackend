@@ -10,8 +10,8 @@ export const swaggerOptions = {
     },
     servers: [
       {
-        // url: `https://app-cafeteriacackend.herokuapp.com/`
-        url: `http://localhost:${PORT}`
+        url: `https://app-cafeteriacackend.herokuapp.com/`
+        // url: `http://localhost:${PORT}`
 
       }
     ]

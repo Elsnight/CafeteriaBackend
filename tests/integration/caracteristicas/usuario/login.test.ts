@@ -41,7 +41,6 @@ describe('Login usuario', async () => {
     const sut = await login.ejecutar(comando);
     expect(sut).to.all.keys(['id', 'nombre', 'apellido', 'telefono', 'email', 'rol', 'urlFoto', 'fechaCreacion', 'token'])
   })
-
   it('Logearse con email inexistente | retorna error', async () => {
     const comando: Comando = { email: 'luisjoel@gmail.com', password: '12345678' }
     await contexto.Usuario.deleteMany({});
