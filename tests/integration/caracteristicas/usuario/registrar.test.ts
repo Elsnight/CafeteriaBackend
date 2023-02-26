@@ -21,10 +21,10 @@ describe('Registrar usuario', async () => {
 
   it('Ingresar usuario', async () => {
     const comando: Comando = {
-      nombre: 'Luis TEST',
-      apellido: 'Méndez Loor',
+      nombre: 'Ana C',
+      apellido: 'Machado Velez',
       telefono: '0983336558',
-      email: 'joel@gmail.comando',
+      email: 'Velez@gmail.con',
       password: '12345678',
       rol: 'cliente'
     }
